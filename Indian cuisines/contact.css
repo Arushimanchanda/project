@@ -1,0 +1,115 @@
+.a{
+           height:100px;
+           width: 100%;
+           
+        }
+        ul li
+        {
+            float: left;
+            list-style: none;
+            padding-left: 50px;
+            font-size: 25px;
+            position: relative;
+            display: flex;
+            color: white;
+            
+        }
+        ul li:hover{
+            transform: scale(1.1);
+            transition: .3s  ;
+            opacity: 0.9;
+            
+
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:black;
+            display: flex;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 570px;
+            width:25%;
+            border: 1px solid black;
+            align-items: center;
+            margin-left:70%;
+            background-color: rgba(0, 0, 0,0.5);
+            box-shadow:  5px 5px 15px black;
+            border-radius: 20px;
+            margin-top: 100px;
+            position: absolute;
+        }
+         h2 {
+            text-align: center;
+            color: white;
+            font-size: xx-large;
+        }
+        
+        label {
+            display: block;
+            margin-top: 5px;
+            font-size: bold;
+            color: white; 
+        }
+         input, textarea {
+            width: 60%;
+            padding: 15px;
+            margin-top: 20px;
+            margin-left: 70px;
+            border: none;
+            border-radius: 25px;
+            box-sizing: border-box;
+            outline: none;
+            background-color:rgba(0, 0, 0,0.5);
+            text-align:center;
+            box-shadow:4px 3px 6px black;
+            color: white;
+            font-size: 18px;
+        
+        }
+         input, textarea:hover{
+            opacity: 0.9;
+            transform: scale(1.1);
+            transition: .3s;
+            color: white;
+
+        }
+        button {
+            display: block;
+            width: 60%;
+            padding: 15px;
+            background-color:rgba(0, 0, 0,0.5);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 25px;
+            cursor: pointer;
+            margin-top: 40px;
+            margin-left: 70px;
+            box-shadow:4px 3px 6px black;
+            
+        }
+        button:hover {
+            background-color: black;
+            transform: scale(1.1);
+            transition: .3s;
+            color: white;
+        } 
+        ::placeholder{
+            opacity: 0.5;
+            color: white;
+        }
+        iframe{
+            display: flex;
+            margin-top:50px ;
+            
+            margin-right: 50px;
+            height: 100%;  
+            position: absolute; 
+            
+            
+
+        }
